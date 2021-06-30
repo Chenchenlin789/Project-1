@@ -1,0 +1,44 @@
+h3:hover { 
+    color: lightblue;
+}
+
+li:first-of-type {
+    color: #FCB941;
+    font-family: "Tahoma";
+  }
+
+  li:nth-of-type(2) { 
+      font-family: "Montserrat";
+      color: greenyellow;
+  }
+
+  li:last-of-type { 
+    font-family: "Raleway";
+    color: #EF5350;
+}
+  
+root:not(:last-of-type) {
+    font-size: 26px;
+}
+
+section p:nth-of-type(even) {
+    color: orange;
+}
+  
+/* root:2n {
+    color: #0277bd
+} */
+
+footer {
+    text-align: center;
+}
+
+button {
+    background: linear-gradient (to top right, blue, rgb(137, 194, 137), red);
+    padding: 15px 30px; 
+    border:none;
+}
+
+button:hover {
+    background: linear-gradient (to top right, orange, yellow, goldenrod)
+}

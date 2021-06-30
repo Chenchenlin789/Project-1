@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+body {
+font-family: "Open Sans Condensed";
+margin: 0 auto;
+}
+
+header {
+    width: 450px;
+    margin: 15% auto;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    border-left-color: plum;
+    border-right-color: plum;
+    color: darkred;
+    text-align: center;
+}
+
+div {
+    width: 450px;
+    margin: 15% auto;
+
+}
+
+img {
+    width: 500px;
+    border-radius: 15%;
+}
+
+section {
+    width: 450px;
+    margin: 10% auto;
+    border: 1px solid gold;
+    box-shadow: 5px 5px 10px 8px green;
+
+}
+
+section:first-child p{
+    width: 400px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px 5px peru;
+}
+
+section:nth-of-type(2) ul{
+    text-align: center;
+    width: 450px;
+    padding: 15px;
+}
+
+li {
+    text-align: center;
+}
