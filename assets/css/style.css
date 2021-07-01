@@ -1,71 +1,13 @@
   
    @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
-
+  
 
    body {
     font-family: 'Maven Pro', sans-serif;
     font-size: 15px;
   }
 
-
-  header {
-    background-color: black;
-    color: white;
-  }
-
-
-/* gradient */
-/*article:hover {
-  background-color: white;
-} >ask how it hovers*/
-
- .fresh {
-   width: 100px;
-  background: rgb(61,200,213);
-  background: linear-gradient(20deg, rgba(61,200,213,1) 0%, rgba(133,7,225,1) 35%, rgba(204,204,204,1) 45%, rgba(0,212,255,1) 80%);
-}
-
-nav {
-  position: relative;
-  text-align: right;
-  color: white
-}
-    a {
-      color: white;
-    }
-
-    a:hover {
-      font-weight: bold;
-    }
-
-.learned-header {
-  font-size: 80px;
-}
-    section {
-      padding-left: 7%;
-      padding-right: 50%;
-      height: 100vh;
-      background-image:url(https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg);
-      background-repeat: no-repeat;
-      background-size:contain;
-      /* background-position: 300px 50px; */
-      background-position: center;
-      background-attachment: fixed;
-  
-  }
-  .container {
-    position: relative;
-}
-
-.center {
-    width: 15%;
-    height: 10%;
-    margin: auto;
-    padding: 3px;
-    
-}
-
-.fontsize-small {
+  .fontsize-small {
     text-align: center;
     font-size: 15px;
 }
@@ -73,61 +15,101 @@ nav {
 .fontsize-big{
   text-align: center;
     font-size: 56px;
-
 }
 
-.bottomright {
-    position: relative;
-    bottom: 8px;
-    right: 16px;
-    font-size: 18px;
-    background-image: url(https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg);
+header {
+background-color: black;
+color: white;
 }
 
-.topleft {
-    position: relative;
-    top: 8px;
-    left: 16px;
-    font-size: 18px;
+div:first-child p{
+color: white;
+position: relative;
+top: 8px;
+left: 16px;
+font-size: 18px;
 }
 
-    
- /*.img-padding {
-      border-radius:15%;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 15px;
-      height: 15px;
-      text-align: center;
-      line-height: 300px;
-    }*/
 
-img {
-    display: block;
-    width: 80%;
+ header section:first-of-type {
+  margin:0 auto;
+  padding: 2%;
+  width: 25%;
+  background: rgb(61,200,213);
+  background: linear-gradient(25deg, rgba(133,7,225,1) 35%, rgba(0,212,255,1) 100%, #ccc 45%, rgba(61,200,213,1) 35%);
+}
+
+header section:first-of-type:hover {
+  padding: 2%;
+  width: 25%;
+  background: rgb(61,200,213);
+  background: linear-gradient(25deg, rgba(61,200,213,1) 0%, rgba(204,204,204,1) 45%,  rgba(0,212,255,1) 100%, rgba(133,7,225,1) 35%);
+}
+
+nav {
+  position: relative;
+  text-align: right;
+  font-weight: bold;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color:rgba(61,200,213,1);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* second page */
+
+/* background-position: 500px 700px;
+height: 100vh; */
+
+main { 
+  margin: 0 auto;
+  padding-left: 7%;
+  padding-right: 35%;
+  background-image: url(https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
   }
 
-/* .helper {
-    display: inline-block;
-    vertical-align: middle;
-     height: 100%
+ /* main section:first-child h1{
+  font-size: 3500px;
   } */
 
+  section:first-child {
+    margin: 0 auto;
+    width: 70%;
+    padding-left: 7%;
+    padding-right: 35%;
+    background-image: url(https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+
+  }
+
+section:nth-of-type(2) {
+  margin: 35px;
+  padding-left: 7%;
+  padding-right: 50px;
+
+}
+
+
+img {
+  margin: 50px;
+  padding-left: 10%;
+  padding-right: 35%;
+  display: block;
+  width: 90%;
+  border-radius: 8%;
+}
  
-  section a:last-child {
-    background-color: #7E3661;
-    color: gold;
-  }
-
-  section a:last-child:visited {
-    color: #FCB941;
-  }
-
-  section a:last-child:visited { background-color: #7E3661;
-    color: tomato;
-  }
-
-  section a:last-child:out-of-range {
-     font-size: 3em;
-  }
